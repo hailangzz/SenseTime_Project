@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="84239490-113b-4cc7-b39b-4bc7941fae8c" name="Changes" comment="first commit 1" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <branch-grouping />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="MIXED" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2hB5QoyATHvgtZYLJYYZBMXKJEU" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.2.SearchCameraTagFrameInfo.executor&quot;: &quot;Run&quot;,
+    &quot;Python.3.CreateAWSTestDatalist.executor&quot;: &quot;Run&quot;,
+    &quot;Python.4.CheckInferResultsInfo.executor&quot;: &quot;Run&quot;,
+    &quot;Python.5.search_infer_miss_image_sample.executor&quot;: &quot;Run&quot;,
+    &quot;Python.6.RandomObtainSamples.executor&quot;: &quot;Run&quot;,
+    &quot;Python.CreateAWSTestDatalist.executor&quot;: &quot;Run&quot;,
+    &quot;Python.CreateHadTagMapping.executor&quot;: &quot;Run&quot;,
+    &quot;Python.GetImageAwsSaveInfo.executor&quot;: &quot;Run&quot;,
+    &quot;Python.SearchCameraTagFrameInfo.executor&quot;: &quot;Run&quot;,
+    &quot;Python.plot_tag_number_distribution_chart.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ploy_h265_video.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ploy_h265_video_single.executor&quot;: &quot;Run&quot;,
+    &quot;Python.poly_h265_video_twins.executor&quot;: &quot;Run&quot;,
+    &quot;Python.save_h265_video_twins.executor&quot;: &quot;Run&quot;,
+    &quot;Python.select_data_过滤标注文件.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.抽取datalist中的特定issue图片测试模型效果.executor&quot;: &quot;Run&quot;,
+    &quot;Python.构造datalist文件__AWS桶中对应issue的存储图像地址信息.executor&quot;: &quot;Run&quot;,
+    &quot;Python.查看datalist文件json的记录行数.executor&quot;: &quot;Run&quot;,
+    &quot;Python.递归统计指定路径下子文件夹中所有文件的个数.executor&quot;: &quot;Run&quot;,
+    &quot;Python.验收标注数据.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/SENSETIME/zhangzhuo/PycharmProjects&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.CommitDialog&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Python.ploy_h265_video_single">
+    <configuration name="验收标注数据" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PycharmProjects" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SenseTimePycharmProjects/标注数据验收" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SenseTimePycharmProjects/标注数据验收/验收标注数据.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="6.RandomObtainSamples" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PycharmProjects" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SenseTimePycharmProjects/获取DataSenseAuto上打过tag的泛化真值image数据信息/GetImageAwsSavePathFromDataSenseAuto" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SenseTimePycharmProjects/获取DataSenseAuto上打过tag的泛化真值image数据信息/GetImageAwsSavePathFromDataSenseAuto/6.RandomObtainSamples.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="递归统计指定路径下子文件夹中所有文件的个数" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PycharmProjects" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SenseTimePycharmProjects/获取DataSenseAuto上打过tag的泛化真值image数据信息" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SenseTimePycharmProjects/获取DataSenseAuto上打过tag的泛化真值image数据信息/递归统计指定路径下子文件夹中所有文件的个数.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="抽取datalist中的特定issue图片测试模型效果" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PycharmProjects" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SenseTimePycharmProjects/数据处理部分" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SenseTimePycharmProjects/数据处理部分/抽取datalist中的特定issue图片测试模型效果.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ploy_h265_video_single" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PycharmProjects" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SenseTimePycharmProjects/ploy_H265_video" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SenseTimePycharmProjects/ploy_H265_video/ploy_h265_video_single.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="save_h265_video_twins" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PycharmProjects" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SenseTimePycharmProjects/ploy_H265_video" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SenseTimePycharmProjects/ploy_H265_video/save_h265_video_twins.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.ploy_h265_video_single" />
+        <item itemvalue="Python.抽取datalist中的特定issue图片测试模型效果" />
+        <item itemvalue="Python.验收标注数据" />
+        <item itemvalue="Python.save_h265_video_twins" />
+        <item itemvalue="Python.6.RandomObtainSamples" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-0509580d9d50-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.14494.241" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="84239490-113b-4cc7-b39b-4bc7941fae8c" name="Changes" comment="" />
+      <created>1717054616925</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1717054616925</updated>
+    </task>
+    <task id="LOCAL-00001" summary="第一次提交代码">
+      <option name="closed" value="true" />
+      <created>1722501299041</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1722501299041</updated>
+    </task>
+    <task id="LOCAL-00002" summary="删除较大的文件数据">
+      <option name="closed" value="true" />
+      <created>1722501895740</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1722501895740</updated>
+    </task>
+    <task id="LOCAL-00003" summary="111">
+      <option name="closed" value="true" />
+      <created>1722503306304</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1722503306304</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Revert &quot;first commit&quot;&#10;&#10;This reverts commit 47a4b0c3f5bf764aa576995bf6c53a58e9726e4c.">
+      <option name="closed" value="true" />
+      <created>1722505108073</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1722505108073</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Revert &quot;first commit&quot;&#10;&#10;This reverts commit 47a4b0c3f5bf764aa576995bf6c53a58e9726e4c.">
+      <option name="closed" value="true" />
+      <created>1722505346259</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1722505346259</updated>
+    </task>
+    <task id="LOCAL-00006" summary="first commit 1">
+      <option name="closed" value="true" />
+      <created>1722506501987</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1722506501987</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="9d2a11a5-3cf5-4df4-a762-ae6466738b5e" value="TOOL_WINDOW" />
+        <entry key="a8899a4e-8048-4dc2-ac68-60ff962c4a19" value="TOOL_WINDOW" />
+        <entry key="d5298313-4711-4fe7-9d44-50cbf00f0cc6" value="TOOL_WINDOW" />
+        <entry key="ddd1f991-9dd3-4698-916a-f1d4976c7eab" value="TOOL_WINDOW" />
+        <entry key="f944eef8-9bb2-494e-96c0-ab988fa46b7f" value="TOOL_WINDOW" />
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="9d2a11a5-3cf5-4df4-a762-ae6466738b5e">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="a8899a4e-8048-4dc2-ac68-60ff962c4a19">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="d5298313-4711-4fe7-9d44-50cbf00f0cc6">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="ddd1f991-9dd3-4698-916a-f1d4976c7eab">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:/home/SENSETIME/zhangzhuo/PycharmProjects/SenseTimePycharmProjects" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+            </State>
+          </value>
+        </entry>
+        <entry key="f944eef8-9bb2-494e-96c0-ab988fa46b7f">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="第一次提交代码" />
+    <MESSAGE value="删除较大的文件数据" />
+    <MESSAGE value="111" />
+    <MESSAGE value="Revert &quot;first commit&quot;&#10;&#10;This reverts commit 47a4b0c3f5bf764aa576995bf6c53a58e9726e4c." />
+    <MESSAGE value="first commit" />
+    <MESSAGE value="first commit 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit 1" />
+  </component>
+</project>
