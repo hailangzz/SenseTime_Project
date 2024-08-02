@@ -6,4 +6,4 @@ add master
 
 adda 2
 
-add test
+delete test data
