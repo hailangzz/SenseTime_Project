@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="84239490-113b-4cc7-b39b-4bc7941fae8c" name="Changes" comment="commit 1">
-      <change afterPath="$PROJECT_DIR$/SenseTimePycharmProjects/test_file/test1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SenseTimePycharmProjects/test_file/test1.py" beforeDir="false" afterPath="$PROJECT_DIR$/SenseTimePycharmProjects/test_file/test1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +29,7 @@
     <branch-grouping />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="test" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -45,35 +44,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.2.SearchCameraTagFrameInfo.executor&quot;: &quot;Run&quot;,
-    &quot;Python.3.CreateAWSTestDatalist.executor&quot;: &quot;Run&quot;,
-    &quot;Python.4.CheckInferResultsInfo.executor&quot;: &quot;Run&quot;,
-    &quot;Python.5.search_infer_miss_image_sample.executor&quot;: &quot;Run&quot;,
-    &quot;Python.6.RandomObtainSamples.executor&quot;: &quot;Run&quot;,
-    &quot;Python.CreateAWSTestDatalist.executor&quot;: &quot;Run&quot;,
-    &quot;Python.CreateHadTagMapping.executor&quot;: &quot;Run&quot;,
-    &quot;Python.GetImageAwsSaveInfo.executor&quot;: &quot;Run&quot;,
-    &quot;Python.SearchCameraTagFrameInfo.executor&quot;: &quot;Run&quot;,
-    &quot;Python.plot_tag_number_distribution_chart.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ploy_h265_video.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ploy_h265_video_single.executor&quot;: &quot;Run&quot;,
-    &quot;Python.poly_h265_video_twins.executor&quot;: &quot;Run&quot;,
-    &quot;Python.save_h265_video_twins.executor&quot;: &quot;Run&quot;,
-    &quot;Python.select_data_过滤标注文件.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test.executor&quot;: &quot;Run&quot;,
-    &quot;Python.抽取datalist中的特定issue图片测试模型效果.executor&quot;: &quot;Run&quot;,
-    &quot;Python.构造datalist文件__AWS桶中对应issue的存储图像地址信息.executor&quot;: &quot;Run&quot;,
-    &quot;Python.查看datalist文件json的记录行数.executor&quot;: &quot;Run&quot;,
-    &quot;Python.递归统计指定路径下子文件夹中所有文件的个数.executor&quot;: &quot;Run&quot;,
-    &quot;Python.验收标注数据.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Rebasing test&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/SENSETIME/zhangzhuo/PycharmProjects&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.CommitDialog&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.2.SearchCameraTagFrameInfo.executor": "Run",
+    "Python.3.CreateAWSTestDatalist.executor": "Run",
+    "Python.4.CheckInferResultsInfo.executor": "Run",
+    "Python.5.search_infer_miss_image_sample.executor": "Run",
+    "Python.6.RandomObtainSamples.executor": "Run",
+    "Python.CreateAWSTestDatalist.executor": "Run",
+    "Python.CreateHadTagMapping.executor": "Run",
+    "Python.GetImageAwsSaveInfo.executor": "Run",
+    "Python.SearchCameraTagFrameInfo.executor": "Run",
+    "Python.plot_tag_number_distribution_chart.executor": "Run",
+    "Python.ploy_h265_video.executor": "Run",
+    "Python.ploy_h265_video_single.executor": "Run",
+    "Python.poly_h265_video_twins.executor": "Run",
+    "Python.save_h265_video_twins.executor": "Run",
+    "Python.select_data_过滤标注文件.executor": "Run",
+    "Python.test.executor": "Run",
+    "Python.抽取datalist中的特定issue图片测试模型效果.executor": "Run",
+    "Python.构造datalist文件__AWS桶中对应issue的存储图像地址信息.executor": "Run",
+    "Python.查看datalist文件json的记录行数.executor": "Run",
+    "Python.递归统计指定路径下子文件夹中所有文件的个数.executor": "Run",
+    "Python.验收标注数据.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/home/SENSETIME/zhangzhuo/PycharmProjects",
+    "settings.editor.selected.configurable": "project.propVCSSupport.CommitDialog"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Python.ploy_h265_video_single">
     <configuration name="验收标注数据" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PycharmProjects" />
