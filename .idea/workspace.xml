@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="84239490-113b-4cc7-b39b-4bc7941fae8c" name="Changes" comment="first commit 1" />
+    <list default="true" id="84239490-113b-4cc7-b39b-4bc7941fae8c" name="Changes" comment="commit 1">
+      <change afterPath="$PROJECT_DIR$/SenseTimePycharmProjects/test_file/test1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,6 +28,11 @@
   </component>
   <component name="Git.Settings">
     <branch-grouping />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="MIXED" />
   </component>
@@ -60,7 +69,7 @@
     &quot;Python.递归统计指定路径下子文件夹中所有文件的个数.executor&quot;: &quot;Run&quot;,
     &quot;Python.验收标注数据.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Rebasing test&quot;,
     &quot;last_opened_file_path&quot;: &quot;/home/SENSETIME/zhangzhuo/PycharmProjects&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.CommitDialog&quot;
   }
@@ -200,10 +209,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.ploy_h265_video_single" />
-        <item itemvalue="Python.抽取datalist中的特定issue图片测试模型效果" />
         <item itemvalue="Python.验收标注数据" />
+        <item itemvalue="Python.抽取datalist中的特定issue图片测试模型效果" />
         <item itemvalue="Python.save_h265_video_twins" />
+        <item itemvalue="Python.ploy_h265_video_single" />
         <item itemvalue="Python.6.RandomObtainSamples" />
       </list>
     </recent_temporary>
@@ -272,46 +281,42 @@
       <option name="project" value="LOCAL" />
       <updated>1722506501987</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="master add test">
+      <option name="closed" value="true" />
+      <created>1722566851303</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1722566851303</updated>
+    </task>
+    <task id="LOCAL-00008" summary="add test">
+      <option name="closed" value="true" />
+      <created>1722566935965</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1722566935965</updated>
+    </task>
+    <task id="LOCAL-00009" summary="add 2">
+      <option name="closed" value="true" />
+      <created>1722567475783</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1722567475783</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="OPEN_GENERIC_TABS">
       <map>
-        <entry key="9d2a11a5-3cf5-4df4-a762-ae6466738b5e" value="TOOL_WINDOW" />
         <entry key="a8899a4e-8048-4dc2-ac68-60ff962c4a19" value="TOOL_WINDOW" />
         <entry key="d5298313-4711-4fe7-9d44-50cbf00f0cc6" value="TOOL_WINDOW" />
-        <entry key="ddd1f991-9dd3-4698-916a-f1d4976c7eab" value="TOOL_WINDOW" />
-        <entry key="f944eef8-9bb2-494e-96c0-ab988fa46b7f" value="TOOL_WINDOW" />
       </map>
     </option>
     <option name="TAB_STATES">
       <map>
-        <entry key="9d2a11a5-3cf5-4df4-a762-ae6466738b5e">
-          <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="HEAD" />
-                      </list>
-                    </value>
-                  </entry>
-                  <entry key="roots">
-                    <value>
-                      <list>
-                        <option value="$PROJECT_DIR$" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
-            </State>
-          </value>
-        </entry>
         <entry key="MAIN">
           <value>
             <State>
@@ -363,48 +368,6 @@
             </State>
           </value>
         </entry>
-        <entry key="ddd1f991-9dd3-4698-916a-f1d4976c7eab">
-          <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="HEAD" />
-                      </list>
-                    </value>
-                  </entry>
-                  <entry key="structure">
-                    <value>
-                      <list>
-                        <option value="dir:/home/SENSETIME/zhangzhuo/PycharmProjects/SenseTimePycharmProjects" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
-            </State>
-          </value>
-        </entry>
-        <entry key="f944eef8-9bb2-494e-96c0-ab988fa46b7f">
-          <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="HEAD" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
-          </value>
-        </entry>
       </map>
     </option>
   </component>
@@ -416,6 +379,11 @@
     <MESSAGE value="Revert &quot;first commit&quot;&#10;&#10;This reverts commit 47a4b0c3f5bf764aa576995bf6c53a58e9726e4c." />
     <MESSAGE value="first commit" />
     <MESSAGE value="first commit 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit 1" />
+    <MESSAGE value="master add test" />
+    <MESSAGE value="add test" />
+    <MESSAGE value="add 1" />
+    <MESSAGE value="add 2" />
+    <MESSAGE value="commit 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit 1" />
   </component>
 </project>
