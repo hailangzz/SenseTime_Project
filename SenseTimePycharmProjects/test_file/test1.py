@@ -1,13 +1,13 @@
-asdfasdfasdf
+print("asdfasdfasdf")
 
-helloe
+print("ahelloe")
 
-add master
+print("aadd master")
 
-adda 2
+print("aadda 2")
 
-delete test data
+print("adelete test data")
 
-add test2
+print("aadd test2")
 
-add master
+print("aadd master")

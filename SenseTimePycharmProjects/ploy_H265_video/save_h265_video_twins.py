@@ -3,10 +3,25 @@ import numpy as np
 import os
 
 # 视频文件路径
-video_path_1 = '/data/save_video_buffer/2024_06_18_10_40_10/sensors_record/camera'
-video_path_2 = '/data/save_video_buffer/2024_07_11_18_29_56_AutoCollect/sensors_record/camera'
+# video_path_1 = '/data/save_video_buffer/2024_06_18_10_40_10/sensors_record/camera'
+# video_path_2 = '/data/save_video_buffer/2024_07_11_18_29_56_AutoCollect/sensors_record/camera'
 
-video_path_left = os.path.join(video_path_1,"center_camera_fov120.h265")
+# video_path_1 = '/data/save_video_buffer/2024_07_11_18_29_56_AutoCollect/sensors_record/camera'
+#video_path_2 = '/data/save_video_buffer/2024_07_11_18_29_56_AutoCollect/sensors_record/camera'
+#video_path_2 = "/home/SENSETIME/zhangzhuo/.deepinwine/Deepin-WXWork/drive_c/users/zhangzhuo/Documents/WXWork/1688854535539608/Cache/File/2024-08/"
+#白天摄像头视频效果对比
+# video_path_1 = '/data/save_video_buffer/2024_06_18_10_40_10/sensors_record/camera'
+# video_path_2 = "/home/SENSETIME/zhangzhuo/.deepinwine/Deepin-WXWork/drive_c/users/zhangzhuo/Documents/WXWork/1688854535539608/Cache/File/2024-08/daytime/"
+#
+# video_path_left = os.path.join(video_path_1,"center_camera_fov30.h265")
+# video_path_right = os.path.join(video_path_2,"center_camera_fov30.h265")
+
+# #夜间摄像头视频效果对比
+video_path_1 = '/home/SENSETIME/zhangzhuo/.deepinwine/Deepin-WXWork/drive_c/users/zhangzhuo/Documents/WXWork/1688854535539608/Cache/File/2024-08/night/'
+video_path_2 = "/home/SENSETIME/zhangzhuo/.deepinwine/Deepin-WXWork/drive_c/users/zhangzhuo/Documents/WXWork/1688854535539608/Cache/File/2024-08/night/"
+
+
+video_path_left = os.path.join(video_path_1,"center_camera_fov30.h265")
 video_path_right = os.path.join(video_path_2,"center_camera_fov120.h265")
 
 # 打开视频文件
@@ -35,7 +50,7 @@ window_width = 1880
 window_height = 829
 
 # 设置视频保存路径和格式
-output_path = 'video_compare.mp4'
+output_path = 'night_video_compare.mp4'
 fourcc = cv2.VideoWriter_fourcc(*'mp4v')  # 指定视频编码器
 output = cv2.VideoWriter(output_path, fourcc, fps, (window_width, window_height))
 
@@ -66,6 +81,8 @@ while True:
         if frame_count < save_frame_limit:
             output.write(combined_frame)
             frame_count += 1
+        else:
+            break
 
     # 检测按键
     key = cv2.waitKey(25) & 0xFF

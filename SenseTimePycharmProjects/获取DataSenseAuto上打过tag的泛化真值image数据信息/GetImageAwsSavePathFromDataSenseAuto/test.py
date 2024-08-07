@@ -1,5 +1,5 @@
-# import json
-# import os.path
+import json
+import os.path
 #
 # # 打开JSON文件
 # data_tag_info = "/data/data_senseauto/bucket_tag_data/2024_05/2024_05_29/2024_05_29_11_06_35_parser/data-tag.json"
