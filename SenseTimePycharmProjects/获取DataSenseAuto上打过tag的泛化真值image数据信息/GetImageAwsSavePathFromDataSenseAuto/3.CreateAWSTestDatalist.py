@@ -139,27 +139,27 @@ class CreateFileDataList:
 # 用法示例
 if __name__ == "__main__":
     #folder_path = '/data/TSR/S1_snap'  # 替换为要遍历的文件夹路径
-    folder_path = '/home/SENSETIME/zhangzhuo/PycharmProjects/SenseTimePycharmProjects/获取DataSenseAuto上打过tag的泛化真值image数据信息/GetImageAwsSavePathFromDataSenseAuto/detail_tag_result_dict.json'
+    folder_path = '/data/data_senseauto/bucket_tag_data/save_statistics_tags_info/2024_07/detail_tag_result_dict.json'
 
     search_data_project_info = {
-                                "datetime_sting":"20240529_20240615",
-                                "collect_cars_name": "CN-003",
-                                "model_project_name":"tsr_ramp",          # 筛选对应的model项目tag真值标签数据:tlr、tsr、obstacle、animal、roadmarker
-                                "frame_rate_name":"10FPS",
+                                "datetime_sting":"20240701_20240730",
+                                "collect_cars_name": "CN-007",
+                                "model_project_name":"tlr",          # 筛选对应的model项目tag真值标签数据:tlr、tsr、obstacle、animal、roadmarker、tsr_ramp
+                                "frame_rate_name":"3FPS",
                                 "batch_name":"b1"
                                }
     #output_json_file = 'Generalization_L3_list.json'  # JSON 字典文件的输出路径
     # output_json_file = '20240529_20240615_CN-003_tlr.json'  # JSON 字典文件的输出路径
     # output_json_file = '20240529_20240615_CN-003_animal.json'  # JSON 字典文件的输出路径
     # output_json_file = 'Generalization_G5_obstacle_list.json'  # JSON 字典文件的输出路径
-    output_json_file = "_".join(search_data_project_info.values())+".json"  # JSON 字典文件的输出路径
+    output_json_file = "/data/data_senseauto/bucket_tag_data/save_statistics_tags_info/2024_07/"+"_".join(search_data_project_info.values())+".json"  # JSON 字典文件的输出路径
 
 
-    data_batch_id = "Data_Collection/GT_data/hadGtParser/HAD_gt_2dRoadSemantic/"
+    data_batch_id = "Data_Collection/GT_data/hadGtParser/had_gt_collection/"
     creat_datalist_config = {
-                             "Ceph Addr":"autolabel_sdcoss3:",
+                             "Ceph Addr":"ad_system_common:",
                              # "Ceph Addr":"SDC-OSS-3:",
-                             "Amazon S3 bucket":"s3://sdc3_faw/",
+                             "Amazon S3 bucket":"s3://sdc3-faw-2/",
                              "Project Directory":"HAD/"+data_batch_id
                              }
 

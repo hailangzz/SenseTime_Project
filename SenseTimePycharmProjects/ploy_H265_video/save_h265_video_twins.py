@@ -10,19 +10,20 @@ import os
 #video_path_2 = '/data/save_video_buffer/2024_07_11_18_29_56_AutoCollect/sensors_record/camera'
 #video_path_2 = "/home/SENSETIME/zhangzhuo/.deepinwine/Deepin-WXWork/drive_c/users/zhangzhuo/Documents/WXWork/1688854535539608/Cache/File/2024-08/"
 #白天摄像头视频效果对比
-# video_path_1 = '/data/save_video_buffer/2024_06_18_10_40_10/sensors_record/camera'
-# video_path_2 = "/home/SENSETIME/zhangzhuo/.deepinwine/Deepin-WXWork/drive_c/users/zhangzhuo/Documents/WXWork/1688854535539608/Cache/File/2024-08/daytime/"
+video_path_1 = '/data/save_video_buffer/2024_08_07_09_48_27_AutoCollect/sensors_record/camera'
+# video_path_2 = "/home/SENSETIME/zhangzhuo/.deepinwine/Deepin-WXWork/dosdevices/c:/users/zhangzhuo/Documents/WXWork/1688854535539608/Cache/File/2024-08/daytime/"
+video_path_2 = '/data/save_video_buffer/2024_08_01_10_24_06_AutoCollect/sensors_record/camera'
 #
 # video_path_left = os.path.join(video_path_1,"center_camera_fov30.h265")
 # video_path_right = os.path.join(video_path_2,"center_camera_fov30.h265")
 
 # #夜间摄像头视频效果对比
-video_path_1 = '/home/SENSETIME/zhangzhuo/.deepinwine/Deepin-WXWork/drive_c/users/zhangzhuo/Documents/WXWork/1688854535539608/Cache/File/2024-08/night/'
-video_path_2 = "/home/SENSETIME/zhangzhuo/.deepinwine/Deepin-WXWork/drive_c/users/zhangzhuo/Documents/WXWork/1688854535539608/Cache/File/2024-08/night/"
+# video_path_1 = '/data/save_video_buffer/2024_08_01_10_24_06_AutoCollect/sensors_record/camera'
+# video_path_2 = "/data/save_video_buffer/2024_08_01_10_24_12_AutoCollect/sensors_record/camera"
 
-
-video_path_left = os.path.join(video_path_1,"center_camera_fov30.h265")
-video_path_right = os.path.join(video_path_2,"center_camera_fov120.h265")
+video_type_string = "fov120"  # 选择对比哪个摄像头的录像数据 fov30、fov120
+video_path_left = os.path.join(video_path_1,"center_camera_{}.h265".format(video_type_string))
+video_path_right = os.path.join(video_path_2,"center_camera_{}.h265".format(video_type_string))
 
 # 打开视频文件
 cap1 = cv2.VideoCapture(video_path_left)
@@ -50,12 +51,12 @@ window_width = 1880
 window_height = 829
 
 # 设置视频保存路径和格式
-output_path = 'night_video_compare.mp4'
+output_path = 'night_video_compare_{}.mp4'.format(video_type_string)
 fourcc = cv2.VideoWriter_fourcc(*'mp4v')  # 指定视频编码器
 output = cv2.VideoWriter(output_path, fourcc, fps, (window_width, window_height))
 
 # 计算保存视频的帧数限制
-save_frame_limit = fps * 120  # 2分钟的视频帧数限制
+save_frame_limit = fps * 80  # 80秒的视频帧数限制
 
 # 播放视频
 frame_count = 0
