@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="84239490-113b-4cc7-b39b-4bc7941fae8c" name="Changes" comment="commit 1">
+    <list default="true" id="84239490-113b-4cc7-b39b-4bc7941fae8c" name="Changes" comment="v0.1.0&#10;+ b21780&#10;* 增加test_a">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SenseTimePycharmProjects/test_file/test1.py" beforeDir="false" afterPath="$PROJECT_DIR$/SenseTimePycharmProjects/test_file/test1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,14 +26,30 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="test" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
     <branch-grouping />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="test" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="MIXED" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
@@ -46,34 +62,43 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.1.splitmodel.executor": "Run",
     "Python.2.SearchCameraTagFrameInfo.executor": "Run",
     "Python.3.CreateAWSTestDatalist.executor": "Run",
+    "Python.3.get_channel.executor": "Run",
     "Python.4.CheckInferResultsInfo.executor": "Run",
     "Python.5.search_infer_miss_image_sample.executor": "Run",
     "Python.6.RandomObtainSamples.executor": "Run",
+    "Python.AnalysisHadModelTrackingInfo.executor": "Run",
     "Python.CreateAWSTestDatalist.executor": "Run",
     "Python.CreateHadTagMapping.executor": "Run",
     "Python.GetImageAwsSaveInfo.executor": "Run",
+    "Python.HAD_perception测试集数量分布.executor": "Run",
     "Python.SearchCameraTagFrameInfo.executor": "Run",
     "Python.plot_tag_number_distribution_chart.executor": "Run",
     "Python.ploy_h265_video.executor": "Run",
     "Python.ploy_h265_video_single.executor": "Run",
     "Python.poly_h265_video_twins.executor": "Run",
+    "Python.pth_to_onnx.executor": "Run",
     "Python.save_h265_video_twins.executor": "Run",
     "Python.select_data_过滤标注文件.executor": "Run",
+    "Python.splitmodel.executor": "Run",
     "Python.test.executor": "Run",
+    "Python.使用扩大的训练集对测试样本集进行填充.executor": "Run",
     "Python.抽取datalist中的特定issue图片测试模型效果.executor": "Run",
     "Python.构造datalist文件__AWS桶中对应issue的存储图像地址信息.executor": "Run",
     "Python.查看datalist文件json的记录行数.executor": "Run",
+    "Python.统计训练集样本分布.executor": "Run",
+    "Python.统计训练集样本分布_my.executor": "Run",
     "Python.递归统计指定路径下子文件夹中所有文件的个数.executor": "Run",
     "Python.验收标注数据.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "/home/SENSETIME/zhangzhuo/PycharmProjects",
-    "settings.editor.selected.configurable": "project.propVCSSupport.CommitDialog"
+    "git-widget-placeholder": "test__my",
+    "last_opened_file_path": "/home/SENSETIME/zhangzhuo/WorkSpace_SenseTime/up_road-semantic",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.ploy_h265_video_single">
+  <component name="RunManager" selected="Python.统计训练集样本分布">
     <configuration name="验收标注数据" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PycharmProjects" />
       <option name="ENV_FILES" value="" />
@@ -96,7 +121,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="6.RandomObtainSamples" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="统计训练集样本分布" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PycharmProjects" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -105,11 +130,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SenseTimePycharmProjects/获取DataSenseAuto上打过tag的泛化真值image数据信息/GetImageAwsSavePathFromDataSenseAuto" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SenseTimePycharmProjects/数据处理部分" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SenseTimePycharmProjects/获取DataSenseAuto上打过tag的泛化真值image数据信息/GetImageAwsSavePathFromDataSenseAuto/6.RandomObtainSamples.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SenseTimePycharmProjects/数据处理部分/统计训练集样本分布.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -140,6 +165,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="统计训练集样本分布_my" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PycharmProjects" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SenseTimePycharmProjects/数据处理部分" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SenseTimePycharmProjects/数据处理部分/统计训练集样本分布_my.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="抽取datalist中的特定issue图片测试模型效果" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PycharmProjects" />
       <option name="ENV_FILES" value="" />
@@ -154,28 +201,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SenseTimePycharmProjects/数据处理部分/抽取datalist中的特定issue图片测试模型效果.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="ploy_h265_video_single" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PycharmProjects" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SenseTimePycharmProjects/ploy_H265_video" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SenseTimePycharmProjects/ploy_H265_video/ploy_h265_video_single.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -206,13 +231,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Python.save_h265_video_twins" />
+      <item itemvalue="Python.抽取datalist中的特定issue图片测试模型效果" />
+      <item itemvalue="Python.统计训练集样本分布" />
+      <item itemvalue="Python.统计训练集样本分布_my" />
+      <item itemvalue="Python.验收标注数据" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.验收标注数据" />
+        <item itemvalue="Python.统计训练集样本分布_my" />
+        <item itemvalue="Python.统计训练集样本分布" />
         <item itemvalue="Python.抽取datalist中的特定issue图片测试模型效果" />
         <item itemvalue="Python.save_h265_video_twins" />
-        <item itemvalue="Python.ploy_h265_video_single" />
-        <item itemvalue="Python.6.RandomObtainSamples" />
       </list>
     </recent_temporary>
   </component>
@@ -304,7 +336,23 @@
       <option name="project" value="LOCAL" />
       <updated>1722567475783</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="新增功能脚本20240905">
+      <option name="closed" value="true" />
+      <created>1725527205276</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1725527205276</updated>
+    </task>
+    <task id="LOCAL-00011" summary="v0.1.0&#10;+ b21780&#10;* 增加test_a">
+      <option name="closed" value="true" />
+      <created>1725536956432</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1725536956432</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -312,6 +360,41 @@
       <map>
         <entry key="a8899a4e-8048-4dc2-ac68-60ff962c4a19" value="TOOL_WINDOW" />
         <entry key="d5298313-4711-4fe7-9d44-50cbf00f0cc6" value="TOOL_WINDOW" />
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="test_my" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="test" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/test_my" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="master" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/test" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
       </map>
     </option>
     <option name="TAB_STATES">
@@ -383,6 +466,8 @@
     <MESSAGE value="add 1" />
     <MESSAGE value="add 2" />
     <MESSAGE value="commit 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit 1" />
+    <MESSAGE value="新增功能脚本20240905" />
+    <MESSAGE value="v0.1.0&#10;+ b21780&#10;* 增加test_a" />
+    <option name="LAST_COMMIT_MESSAGE" value="v0.1.0&#10;+ b21780&#10;* 增加test_a" />
   </component>
 </project>
