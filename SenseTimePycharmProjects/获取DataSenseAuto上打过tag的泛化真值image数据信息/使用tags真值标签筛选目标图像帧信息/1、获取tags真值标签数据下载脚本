@@ -4,4 +4,6 @@
     https://ma6g49ezjfs.feishu.cn/sheets/EmUUsFMy2h8eVZtcU0zc4pYknmg?sheet=6r6tBL
 
 3、获取真值筛选数据下载脚本
-    下载到：/data/data_senseauto/bucket_tag_data/2024-07 目录中
+    下载到：/data/data_senseauto/bucket_tag_data/download_tags_file_shell 目录中
+        注意：下载AWS下载脚本时，需先根据图像切片对应的月份，创建好month子目录，以备后续aws文件下载使用
+

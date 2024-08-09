@@ -44,7 +44,7 @@ class DownLoadAwsSaveInfoWithShell:
 
 
 
-aws_download_shell = "/data/data_senseauto/bucket_tag_data/download_tags_file_shell/TurnAround_1_TLR_0806.sh"
+aws_download_shell = "/data/data_senseauto/bucket_tag_data/download_tags_file_shell/TLR_0809_data.sh"
 #'center_camera_fov30.txt','center_camera_fov120.txt','rear_camera.txt'
 down_load_file_name_list = ["data-tag.json",'center_camera_fov30.txt','center_camera_fov120.txt','rear_camera.txt']
 down_load_aws_info = DownLoadAwsSaveInfoWithShell(aws_download_shell,down_load_file_name_list)

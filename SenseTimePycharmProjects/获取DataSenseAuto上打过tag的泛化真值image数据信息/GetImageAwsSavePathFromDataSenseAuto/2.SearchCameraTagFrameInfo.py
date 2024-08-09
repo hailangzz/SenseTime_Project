@@ -36,17 +36,20 @@ class SearchCameraTagFrameInfo:
             camera_frame_parser_file_path = os.path.join(data_tag_father_path,
                                                          camera_frame_parser_file_name+".txt")
 
-            with open(camera_frame_parser_file_path, 'r', encoding='utf-8') as f:
-                for row_camera_frame_parser_info in f.readlines():
-                    # single_row_frame_info_list = [int(value) for value in
-                    #                               row_camera_frame_parser_info.strip().split(', ')]
-                    string_single_row_frame_start_info = row_camera_frame_parser_info.strip().split(', ')[1]
-                    int_single_row_frame_start_info = int(string_single_row_frame_start_info[:10])
+            try:
+                with open(camera_frame_parser_file_path, 'r', encoding='utf-8') as f:
+                    for row_camera_frame_parser_info in f.readlines():
+                        # single_row_frame_info_list = [int(value) for value in
+                        #                               row_camera_frame_parser_info.strip().split(', ')]
+                        string_single_row_frame_start_info = row_camera_frame_parser_info.strip().split(', ')[1]
+                        int_single_row_frame_start_info = int(string_single_row_frame_start_info[:10])
 
-                    if int_single_row_frame_start_info>=start_time and int_single_row_frame_start_info<=end_time:
+                        if int_single_row_frame_start_info>=start_time and int_single_row_frame_start_info<=end_time:
 
-                        search_camera_frame_bucket_path = os.path.join("camera",camera_frame_parser_file_name,string_single_row_frame_start_info+".jpg")
-                        search_camera_frame_name_dict[camera_frame_parser_file_name].append(search_camera_frame_bucket_path)
+                            search_camera_frame_bucket_path = os.path.join("camera",camera_frame_parser_file_name,string_single_row_frame_start_info+".jpg")
+                            search_camera_frame_name_dict[camera_frame_parser_file_name].append(search_camera_frame_bucket_path)
+            except Exception as e:
+                print(e)
 
             self.single_origin_record_tag_dict[camera_frame_parser_file_name] = search_camera_frame_name_dict[camera_frame_parser_file_name]  # 为筛选的摄像头帧bucket存储路径赋值
             # print(self.single_origin_record_tag_dict[camera_frame_parser_file_name])

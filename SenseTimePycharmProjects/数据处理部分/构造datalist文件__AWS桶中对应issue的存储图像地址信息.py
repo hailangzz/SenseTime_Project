@@ -33,7 +33,7 @@ class CreateFileDataList:
                 self.file_dict["filename"] = (self.creat_datalist_config["Ceph Addr"]+
                                               self.creat_datalist_config["Amazon S3 bucket"]+
                                               self.creat_datalist_config["Project Directory"]+file_path)
-                print(self.file_dict["filename"])
+                # print(self.file_dict["filename"])
                 self.file_dict_list.append(copy.deepcopy(self.file_dict))
 
     def save_to_json(self, output_file):
@@ -42,17 +42,19 @@ class CreateFileDataList:
             for row_dict_info in self.file_dict_list:
                 json_file.write(json.dumps(row_dict_info))
                 json_file.write("\n")
-        json_file.close()
-
 
 # 用法示例
 if __name__ == "__main__":
     #folder_path = '/data/TSR/S1_snap'  # 替换为要遍历的文件夹路径
-    folder_path = '/data/animal/A4_snap'
+    folder_path = '/data/TSR/S4_snap'
     #output_json_file = 'Generalization_L3_list.json'  # JSON 字典文件的输出路径
-    output_json_file = 'animal_A4_list.json'  # JSON 字典文件的输出路径
-    data_batch_id = "20240709_A4"
-    creat_datalist_config = {"Ceph Addr":"sensecore-rs:",
+    output_json_name = 'TSR_S4_list.json'  # JSON 字典文件的输出路径
+
+    save_datalist_folder = "/data/SaveDatalistFolder"
+    output_json_file = os.path.join(save_datalist_folder,output_json_name)
+    print(output_json_file)
+    data_batch_id = "20240808_S4"
+    creat_datalist_config = {"Ceph Addr":"sensecore-rs-2:",
                              "Amazon S3 bucket":"s3://roadsemantics/",
                              "Project Directory":"had/"+data_batch_id
                              }
