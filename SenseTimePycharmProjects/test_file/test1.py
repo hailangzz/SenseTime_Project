@@ -11,7 +11,3 @@ delete test data
 add test2
 
 add master
-sadfase
-sfsda
-asdf
-ada 2
