@@ -1,0 +1,20 @@
+Index: SenseTimePycharmProjects/test_file/test1.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>asdfasdfasdf\n\nhelloe\n\nadd master\n\nadda 2\n\ndelete test data
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/SenseTimePycharmProjects/test_file/test1.py b/SenseTimePycharmProjects/test_file/test1.py
+--- a/SenseTimePycharmProjects/test_file/test1.py	(revision b74419314ace07043a0499628c761f5660dac2c8)
++++ b/SenseTimePycharmProjects/test_file/test1.py	(date 1722569880814)
+@@ -6,4 +6,6 @@
+ 
+ adda 2
+ 
+-delete test data
+\ No newline at end of file
++delete test data
++
++add test2
+\ No newline at end of file
