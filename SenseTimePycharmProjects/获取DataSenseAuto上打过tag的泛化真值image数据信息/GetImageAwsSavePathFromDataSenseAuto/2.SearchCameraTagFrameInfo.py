@@ -31,7 +31,6 @@ class SearchCameraTagFrameInfo:
                                          "rear_camera": []
                                          }
 
-
         for camera_frame_parser_file_name in self.camera_frame_name_file_list:  #读取tag标签路径下的camera帧记录文件["center_camera_fov30.txt", "center_camera_fov120.txt", "rear_camera.txt"]
             camera_frame_parser_file_path = os.path.join(data_tag_father_path,
                                                          camera_frame_parser_file_name+".txt")
