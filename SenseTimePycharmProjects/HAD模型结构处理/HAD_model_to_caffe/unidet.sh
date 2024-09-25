@@ -1,7 +1,7 @@
 # 输出路径
 DATE=`date +%Y%m%d`
 #DATE = "20240819"
-VERSION=${DATE}_v1.18.a
+VERSION=${DATE}_v1.19.a
 mkdir -p $VERSION
 OUT=${VERSION}/unidet.pth
 

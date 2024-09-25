@@ -43,12 +43,14 @@ class CreateFileDataList:
                               "tsr":
                                   {"tag_range_list":
                                       [
-                                          # "TSLR真值-限速牌",
+                                          "TSLR真值-限速牌",
                                           "TSLR真值-限制类标志（高宽重）",
                                           "TSLR真值-解除限速牌",
                                           "TSLR真值-解除限速类-以0结尾",
-                                          # "TSLR真值-限速类-以0结尾（含电子限速）",
+                                          "TSLR真值-限速类-以0结尾（含电子限速）",
+                                          "TSLR真值-80m-TSR",
                                           "TSLR真值-限速类-以5结尾（含电子限速）",
+                                          "TSLR真值-限速类-最低限速",
 
                                       ],
                                    "camera_type_list": ["center_camera_fov30","center_camera_fov120"],
@@ -101,31 +103,32 @@ class CreateFileDataList:
             # 使用 json.load() 方法解析JSON文件
             data = json.load(f)
             # print(data.keys())
-            for monthdate in data:
-                # print(monthdate)
-                for daytime in data[monthdate]:
-                    # print(daytime)
-                    for minute in data[monthdate][daytime]:
-                        # print(minute)
-                        for single_record_tag_info in data[monthdate][daytime][minute]["origin_record_tag"]:
-                            # print(type(single_record_tag_info["tag"]),single_record_tag_info["tag"])
-                            # if "路口红绿灯" in single_record_tag_info["tag"]:
-                            # 根据model项目的不同，选择对应的tag真值列表数据
-                            if single_record_tag_info["tag"] in self.search_config[self.search_data_project_info["model_project_name"]]["tag_range_list"]:
-                            # if "隔离柱"  in single_record_tag_info["tag"] or "护栏"  in single_record_tag_info["tag"]:
-                            # if "GOP真值-特定类-动物" in single_record_tag_info["tag"]:
-                                #for camera_type in ["center_camera_fov30","center_camera_fov120","rear_camera"]:
-                            # 根据model项目不同，选择对应的摄像头类型列表，不同的前视、后视摄像头
-                                for camera_type in self.search_config[self.search_data_project_info["model_project_name"]]["camera_type_list"]:
-                                    for camera_frame_path_index in range(len(single_record_tag_info[camera_type])):
-                                        if camera_frame_path_index%self.search_config[self.search_data_project_info["model_project_name"]]["interval_frame_num"] == 0:
-                                            file_path = os.path.join(monthdate,daytime,minute,single_record_tag_info[camera_type][camera_frame_path_index])
+            for collection_type in data:
+                for monthdate in data[collection_type]:
+                    # print(monthdate)
+                    for daytime in data[collection_type][monthdate]:
+                        # print(daytime)
+                        for minute in data[collection_type][monthdate][daytime]:
+                            # print(minute)
+                            for single_record_tag_info in data[collection_type][monthdate][daytime][minute]["origin_record_tag"]:
+                                # print(type(single_record_tag_info["tag"]),single_record_tag_info["tag"])
+                                # if "路口红绿灯" in single_record_tag_info["tag"]:
+                                # 根据model项目的不同，选择对应的tag真值列表数据
+                                if single_record_tag_info["tag"] in self.search_config[self.search_data_project_info["model_project_name"]]["tag_range_list"]:
+                                # if "隔离柱"  in single_record_tag_info["tag"] or "护栏"  in single_record_tag_info["tag"]:
+                                # if "GOP真值-特定类-动物" in single_record_tag_info["tag"]:
+                                    #for camera_type in ["center_camera_fov30","center_camera_fov120","rear_camera"]:
+                                # 根据model项目不同，选择对应的摄像头类型列表，不同的前视、后视摄像头
+                                    for camera_type in self.search_config[self.search_data_project_info["model_project_name"]]["camera_type_list"]:
+                                        for camera_frame_path_index in range(len(single_record_tag_info[camera_type])):
+                                            if camera_frame_path_index%self.search_config[self.search_data_project_info["model_project_name"]]["interval_frame_num"] == 0:
+                                                file_path = os.path.join(collection_type,monthdate,daytime,minute,single_record_tag_info[camera_type][camera_frame_path_index])
 
-                                            self.file_dict["filename"] = (self.creat_datalist_config["Ceph Addr"] +
-                                                                          self.creat_datalist_config["Amazon S3 bucket"]+
-                                                                          self.creat_datalist_config["Project Directory"]+file_path)
-                                            # print(self.file_dict["filename"])
-                                            self.file_dict_list.append(copy.deepcopy(self.file_dict))
+                                                self.file_dict["filename"] = (self.creat_datalist_config["Ceph Addr"] +
+                                                                              self.creat_datalist_config["Amazon S3 bucket"]+
+                                                                              self.creat_datalist_config["Project Directory"]+file_path)
+                                                # print(self.file_dict["filename"])
+                                                self.file_dict_list.append(copy.deepcopy(self.file_dict))
 
     def save_to_json(self, output_file):
 
@@ -139,12 +142,12 @@ class CreateFileDataList:
 # 用法示例
 if __name__ == "__main__":
     #folder_path = '/data/TSR/S1_snap'  # 替换为要遍历的文件夹路径
-    folder_path = '/data/data_senseauto/bucket_tag_data/save_statistics_tags_info/2024_07/detail_tag_result_dict.json'
+    folder_path = '/data/data_senseauto/bucket_tag_data/save_statistics_tags_info/TSR/2024_09/detail_tag_result_dict.json'
 
     search_data_project_info = {
-                                "datetime_sting":"20240701_20240730",
-                                "collect_cars_name": "CN-007",
-                                "model_project_name":"tlr",          # 筛选对应的model项目tag真值标签数据:tlr、tsr、obstacle、animal、roadmarker、tsr_ramp
+                                "datetime_sting":"Generalization_20240901_20240930",
+                                "collect_cars_name": "CN-008",
+                                "model_project_name":"tsr",          # 筛选对应的model项目tag真值标签数据:tlr、tsr、obstacle、animal、roadmarker、tsr_ramp
                                 "frame_rate_name":"3FPS",
                                 "batch_name":"b1"
                                }
@@ -152,9 +155,10 @@ if __name__ == "__main__":
     # output_json_file = '20240529_20240615_CN-003_tlr.json'  # JSON 字典文件的输出路径
     # output_json_file = '20240529_20240615_CN-003_animal.json'  # JSON 字典文件的输出路径
     # output_json_file = 'Generalization_G5_obstacle_list.json'  # JSON 字典文件的输出路径
-    output_json_file = "/data/data_senseauto/bucket_tag_data/save_statistics_tags_info/2024_07/"+"_".join(search_data_project_info.values())+".json"  # JSON 字典文件的输出路径
 
-    data_batch_id = "Data_Collection/GT_data/hadGtParser/had_gt_collection/"
+    output_json_file = folder_path.split("detail_tag_result_dict.json")[0]+"_".join(search_data_project_info.values())+".json"  # JSON 字典文件的输出路径
+
+    data_batch_id = "Data_Collection/GT_data/hadGtParser/"
     creat_datalist_config = {
                              "Ceph Addr":"ad_system_common:",
                              # "Ceph Addr":"SDC-OSS-3:",

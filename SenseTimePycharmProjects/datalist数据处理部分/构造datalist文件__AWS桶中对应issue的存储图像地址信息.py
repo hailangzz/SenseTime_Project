@@ -51,26 +51,26 @@ class CreateFileDataList:
 if __name__ == "__main__":
     camera_type = "front"  # front 、rear
 
-    # folder_path = '/data/TSR/S6_snap'  # 替换为要遍历的文件夹路径
-    # output_json_name = 'TSR_S6_list.json'  # JSON 字典文件的输出路径
-    # data_batch_id = "20240903_S6"
+    # folder_path = '/data/TSR/S7_snap'  # 替换为要遍历的文件夹路径
+    # output_json_name = 'TSR_S7_list.json'  # JSON 字典文件的输出路径
+    # data_batch_id = "20240910_S7"
 
-    # folder_path = '/data/TLR/L7_snap'
-    # output_json_name = 'TLR_L7_list.json'  # JSON 字典文件的输出路径
-    # data_batch_id = "20240903_L7"
+    # folder_path = '/data/TLR/L8_snap'
+    # output_json_name = 'TLR_L8_list.json'  # JSON 字典文件的输出路径
+    # data_batch_id = "20240910_L8"
 
-    # folder_path = '/data/Obstacle/O4_snap'  # 替换为要遍历的文件夹路径
-    # output_json_name = 'Obstacle_O4_list.json'  # JSON 字典文件的输出路径
-    # data_batch_id = "20240903_O4"
+    folder_path = '/data/Obstacle/O5_snap'  # 替换为要遍历的文件夹路径
+    output_json_name = 'Obstacle_O5_list.json'  # JSON 字典文件的输出路径
+    data_batch_id = "20240910_O5"
 
+    # folder_path = '/data/RoadMarker/FRM7_snap'  # 替换为要遍历的文件夹路径
+    # output_json_name = 'roadmarker_FRM7_list.json'  # JSON 字典文件的输出路径
+    # data_batch_id = "20240910_FRM7"
+
+    # camera_type = "rear"  # front 、rear
     # folder_path = '/data/RoadMarker/FRM6_snap'  # 替换为要遍历的文件夹路径
-    # output_json_name = 'roadmarker_FRM6_list.json'  # JSON 字典文件的输出路径
-    # data_batch_id = "20240903_FRM6"
-
-    camera_type = "rear"  # front 、rear
-    folder_path = '/data/RoadMarker/FRM6_snap'  # 替换为要遍历的文件夹路径
-    output_json_name = 'rear_roadmarker_RRM6_list.json'  # JSON 字典文件的输出路径
-    data_batch_id = "20240903_RRM6"
+    # output_json_name = 'rear_roadmarker_RRM6_list.json'  # JSON 字典文件的输出路径
+    # data_batch_id = "20240903_RRM6"
 
     #folder_path = '/data/RoadMarker/FRM5_snap'
     #output_json_file = 'Generalization_L3_list.json'  # JSON 字典文件的输出路径

@@ -4,7 +4,7 @@ import torch
 
 
 #p = '/data/model_deploy_folder/pretrain_model/unimodel/cross_front/v1.18.a/checkpoints/ckpt_e13.pth'
-p = '/data/model_deploy_folder/pretrain_model/ckpt_e1.pth'
+p = '/data/model_deploy_folder/pretrain_model/202400914_had_unit_model_front_train/checkpoints/ckpt_e13.pth'
 model = torch.load(p, map_location='cpu')
 vdc_task = ['rm','tsr','tlr','lightspot','obstacle']
 had_front_task = ['rm', 'tsr', 'tlr', 'pole', 'obstacle', 'animal']
@@ -13,7 +13,7 @@ had_rear_task = ['rm_rear', 'pole']
 project=had_front_task
 
 m = model['model']
-modeldir = '/data/model_deploy_folder/pretrain_model/had/front/20240819_v1.18.a'
+modeldir = '/data/model_deploy_folder/pretrain_model/had/front/20240920_v1.19.a'
 
 os.makedirs(modeldir,exist_ok=True)
 

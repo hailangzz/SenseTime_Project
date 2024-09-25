@@ -59,10 +59,18 @@ def get_video_info(video_path):
 # 替换为你的视频文件路径
 video_path = '/home/SENSETIME/zhangzhuo/ws/issue_playback_data_folder/0830_date/2024_07_28_10_15_09/sensors_record/camera/center_camera_fov30.h265'
 
-video_path_list = ["/data/save_video_buffer/2024_08_01_10_24_12_AutoCollect_2v78/sensors_record/camera/center_camera_fov120.h265",
-                   "/data/save_video_buffer/2024_08_07_18_12_58_AutoCollect_2v78/sensors_record/camera/center_camera_fov120.h265",
-                   "/data/save_video_buffer/2024_08_01_10_24_06_AutoCollect_202-5/sensors_record/camera/center_camera_fov120.h265",
-                   "/data/save_video_buffer/2024_08_07_09_48_27_AutoCollect_202-5/sensors_record/camera/center_camera_fov120.h265",
+video_path_list = [
+                    "/data/save_video_buffer/2024_06_18_10_40_10/sensors_record/camera/center_camera_fov120.h265",
+                    "/data/save_video_buffer/2024_08_01_10_24_12_AutoCollect_2v78/sensors_record/camera/center_camera_fov120.h265",
+                    "/data/save_video_buffer/2024_08_07_18_12_58_AutoCollect_2v78/sensors_record/camera/center_camera_fov120.h265",
+                    "/data/save_video_buffer/2024_08_01_10_24_06_AutoCollect_202-5/sensors_record/camera/center_camera_fov120.h265",
+                    "/data/save_video_buffer/2024_08_07_09_48_27_AutoCollect_202-5/sensors_record/camera/center_camera_fov120.h265",
+                    "/data/save_video_buffer/2024_09_11_11_21_37_AutoCollect/sensors_record/camera/center_camera_fov30.h265",
+
+                    "/data/save_video_buffer/2024_09_12_13_54_06_AutoCollect_2V78/sensors_record/camera/center_camera_fov120.h265",
+                    "/data/save_video_buffer/2024_09_12_13_54_06_AutoCollect_2V78/sensors_record/camera/center_camera_fov120.h265",
+                    "/data/save_video_buffer/2024_09_12_11_36_38_AutoCollect_2V56/sensors_record/camera/center_camera_fov120.h265",
+                    "/data/save_video_buffer/2024_09_12_11_36_38_AutoCollect_2V56/sensors_record/camera/center_camera_fov120.h265"
                    ]
 # Define the path to the bash script and the video file
 script_path = '/data/save_video_buffer/video_rate.sh'

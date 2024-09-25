@@ -7,7 +7,7 @@ video_path_1 = '/data/save_video_buffer/2024_06_18_10_40_10/sensors_record/camer
 # video_path_1 = '/data/save_video_buffer/2024_07_11_18_29_56_AutoCollect/sensors_record/camera'
 #video_path_2 = '/data/save_video_buffer/2024_07_11_18_29_56_AutoCollect/sensors_record/camera'
 #video_path_2 = "/home/SENSETIME/zhangzhuo/.deepinwine/Deepin-WXWork/drive_c/users/zhangzhuo/Documents/WXWork/1688854535539608/Cache/File/2024-08/"
-video_path_2 = "/home/SENSETIME/zhangzhuo/.deepinwine/Deepin-WXWork/drive_c/users/zhangzhuo/Documents/WXWork/1688854535539608/Cache/File/2024-08/daytime/"
+video_path_2 = "/data/save_video_buffer/2024_08_07_09_48_27_AutoCollect_202-5/sensors_record/camera/"
 video_path_left = os.path.join(video_path_1,"center_camera_fov120.h265")
 video_path_right = os.path.join(video_path_2,"center_camera_fov120.h265")
 

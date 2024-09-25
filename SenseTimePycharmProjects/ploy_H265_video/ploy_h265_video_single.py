@@ -1,7 +1,10 @@
 import cv2
 import os
 
-video_origin_path = "/home/SENSETIME/zhangzhuo/ws/issue_playback_data_folder/0830_date/2024_07_28_11_37_20/sensors_record/camera"
+#video_origin_path = "/data/save_video_buffer/2024_09_12_13_54_06_AutoCollect_2V78/sensors_record/camera"
+video_origin_path = "/data/save_video_buffer/2024_09_12_11_36_38_AutoCollect_2V56/sensors_record/camera"
+
+
 # 视频文件路径
 video_path = os.path.join(video_origin_path,'center_camera_fov30.h265')
 
