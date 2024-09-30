@@ -2,7 +2,7 @@ import cv2
 import os
 
 #video_origin_path = "/data/save_video_buffer/2024_09_12_13_54_06_AutoCollect_2V78/sensors_record/camera"
-video_origin_path = "/data/save_video_buffer/2024_09_12_11_36_38_AutoCollect_2V56/sensors_record/camera"
+video_origin_path = "/data/2024_09_27_11_17_29/sensors_record/camera"
 
 
 # 视频文件路径

@@ -59,13 +59,13 @@ if __name__ == "__main__":
     # output_json_name = 'TLR_L8_list.json'  # JSON 字典文件的输出路径
     # data_batch_id = "20240910_L8"
 
-    folder_path = '/data/Obstacle/O5_snap'  # 替换为要遍历的文件夹路径
-    output_json_name = 'Obstacle_O5_list.json'  # JSON 字典文件的输出路径
-    data_batch_id = "20240910_O5"
+    # folder_path = '/data/Obstacle/O5_snap'  # 替换为要遍历的文件夹路径
+    # output_json_name = 'Obstacle_O5_list.json'  # JSON 字典文件的输出路径
+    # data_batch_id = "20240910_O5"
 
-    # folder_path = '/data/RoadMarker/FRM7_snap'  # 替换为要遍历的文件夹路径
-    # output_json_name = 'roadmarker_FRM7_list.json'  # JSON 字典文件的输出路径
-    # data_batch_id = "20240910_FRM7"
+    folder_path = '/data/RoadMarker/FRM7_snap'  # 替换为要遍历的文件夹路径
+    output_json_name = 'roadmarker_FRM7_list.json'  # JSON 字典文件的输出路径
+    data_batch_id = "20240910_FRM7"
 
     # camera_type = "rear"  # front 、rear
     # folder_path = '/data/RoadMarker/FRM6_snap'  # 替换为要遍历的文件夹路径

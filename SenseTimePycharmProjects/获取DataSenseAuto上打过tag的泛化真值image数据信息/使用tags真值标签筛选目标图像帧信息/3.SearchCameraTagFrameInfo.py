@@ -139,7 +139,7 @@ class SearchCameraTagFrameInfo:
                 self.tags_data_collection_type_dict[tags_collection_type]={}
 
             for monthdate in os.listdir(os.path.join(self.origin_bucket_tag_data_path,tags_collection_type)):
-                if monthdate ==self.config_info_dict["search_month"]:
+                if monthdate in self.config_info_dict["search_month"]:
                     if monthdate not in self.search_data_senseauto_camera_tag_dict:
                         self.search_data_senseauto_camera_tag_dict[monthdate]={}
                     for daytime in os.listdir(os.path.join(self.origin_bucket_tag_data_path,tags_collection_type,monthdate)):
@@ -189,9 +189,9 @@ class SearchCameraTagFrameInfo:
             json.dump(self.statistics_tag_info_dict, f, ensure_ascii=False, indent=4)
 
 config_info_dict = {
-                    "origin_bucket_tag_data_path":"/data/data_senseauto/bucket_tag_data/HAD_tags_info_folder/TLR/202409",
-                    "search_month":"2024_09",
-                    "save_statistics_tags_info_path":"/data/data_senseauto/bucket_tag_data/save_statistics_tags_info/TLR/2024_09/"
+                    "origin_bucket_tag_data_path":"/data/data_senseauto/bucket_tag_data/HAD_tags_info_folder/roadmarker/202409",
+                    "search_month":["2024_09","2024_08","2024_07"],
+                    "save_statistics_tags_info_path":"/data/data_senseauto/bucket_tag_data/save_statistics_tags_info/roadmarker/2024_09/"
                     }
 
 search_tag_frame_info = SearchCameraTagFrameInfo(config_info_dict)

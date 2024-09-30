@@ -91,8 +91,8 @@ class DownLoadAwsSaveInfoWithShell:
 
 
 
-aws_download_shell = "/data/data_senseauto/bucket_tag_data/download_tags_file_shell/TLR_HAD_tags/TLR_202409_HAD_tags_ComplexFrame_3.sh"
-save_had_tags_info_path = r"/data/data_senseauto/bucket_tag_data/HAD_tags_info_folder/TLR/202409"
+aws_download_shell = "/data/data_senseauto/bucket_tag_data/download_tags_file_shell/roadmarker_HAD_tags/roadmarker_202409_HAD_tags_L_U_turn_1.sh"
+save_had_tags_info_path = r"/data/data_senseauto/bucket_tag_data/HAD_tags_info_folder/roadmarker/202409"
 #'center_camera_fov30.txt','center_camera_fov120.txt','rear_camera.txt'
 down_load_file_name_list = ["data-tag.json",'center_camera_fov30.txt','center_camera_fov120.txt','rear_camera.txt']
 down_load_aws_info = DownLoadAwsSaveInfoWithShell(aws_download_shell,down_load_file_name_list,save_had_tags_info_path)

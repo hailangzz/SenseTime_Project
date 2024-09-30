@@ -70,7 +70,12 @@ video_path_list = [
                     "/data/save_video_buffer/2024_09_12_13_54_06_AutoCollect_2V78/sensors_record/camera/center_camera_fov120.h265",
                     "/data/save_video_buffer/2024_09_12_13_54_06_AutoCollect_2V78/sensors_record/camera/center_camera_fov120.h265",
                     "/data/save_video_buffer/2024_09_12_11_36_38_AutoCollect_2V56/sensors_record/camera/center_camera_fov120.h265",
-                    "/data/save_video_buffer/2024_09_12_11_36_38_AutoCollect_2V56/sensors_record/camera/center_camera_fov120.h265"
+                    "/data/save_video_buffer/2024_09_12_11_36_38_AutoCollect_2V56/sensors_record/camera/center_camera_fov120.h265",
+                    "/data/2024_09_20_19_03_24/sensors_record/camera/center_camera_fov120.h265",
+                    "/data/2024_09_20_19_03_24/sensors_record/camera/center_camera_fov30.h265",
+
+                    "/data/2024_09_27_11_11_29/sensors_record/camera/center_camera_fov30.h265",
+                    "/data/2024_09_27_11_11_29/sensors_record/camera/center_camera_fov120.h265",
                    ]
 # Define the path to the bash script and the video file
 script_path = '/data/save_video_buffer/video_rate.sh'
